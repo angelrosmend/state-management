@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import Movie from './Movie'
 
-const [movies, setMovies] = useState([
+const MovieList = () => {
+  const [movies, setMovies] = useState([
  {
   name: 'Inception',
   price: '$10',
@@ -25,5 +27,5 @@ const [movies, setMovies] = useState([
    ))}
   </div>
  );
-
+};
 export default MovieList

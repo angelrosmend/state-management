@@ -2,10 +2,10 @@ import React from 'react'
 
 function Nav() {
  return (
-  <div>
-   <h3>Dev Ed</h3>
-   <p>List of Movies: </p>   
-  </div>
+  <nav>
+   <h3 className="nav-link">Dev Ed</h3>
+   <p className="nav-link">List of Movies: </p>   
+  </nav>
  )
 }
 
