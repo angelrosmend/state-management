@@ -4,11 +4,11 @@ import MovieList from './components/MovieList';
 import Nav from './components/Nav';
 import { MovieProvider } from './context/MovieContext'
 import AddMovie from './components/AddMovie';
-
+//AppRouter
 function App() {
   return (
    <MovieProvider>
-    <div className="App">
+   <div className="App">
     <Nav />
     <AddMovie />
     <MovieList />
