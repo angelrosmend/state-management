@@ -19,6 +19,7 @@ export const MovieProvider = (props) => {
    id: 3
   }
  ]);
+ 
  return(
   <MovieContext.Provider value={[movies, setMovies]}>
    {props.children}
